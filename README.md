@@ -1,2 +1,11 @@
-# Project1
-This is my first project.
+This project is based on the Fandango's movie rating system.In October 2015, Walt Hickey from FiveThirtyEight published a popular article where he presented strong evidence that suggests that Fandango's movie rating system was biased and dishonest.
+<br> In this project I investigated potential bias in Fandango's movie rating system. Following up on a 2015 analysis that found evidence of inflated ratings,I compared 2015 and 2016 movie ratings data to determine if Fandango's system has changed.</br>
+
+<br> I compared the 2015 ratings with 2016 ratings using kernel denisity plot.The slight left shift of the 2016 distribution is very interesting for our analysis. It shows that ratings were slightly lower in 2016 compared to 2015. This suggests that there was a difference indeed between Fandango's ratings for popular movies in 2015 and Fandango's ratings for popular movies in 2016.</br>
+<br> After this I examined the frequency tables of the two distributions as both the data sets have different numbes of movies.</br>
+<br>In 2016, very high ratings (4.5 and 5 stars) had significantly lower percentages compared to 2015. In 2016, under 1% of the movies had a perfect rating of 5 stars, compared to 2015 when the percentage was close to 7%. Ratings of 4.5 were also more popular in 2015 — there were approximately 13% more movies rated with a 4.5 in 2015 compared to 2016.
+The minimum rating is also lower in 2016 — 2.5 instead of 3 stars, the minimum of 2015. There clearly is a difference between the two frequency distributions.
+For some other ratings, the percentage went up in 2016. There was a greater percentage of movies in 2016 that received 3.5 and 4 stars, compared to 2015. 3.5 and 4.0 are high ratings, and this challenges the direction of the change we saw on the kernel density plots.</br>
+<br>Then we computed the mean,median and mode for both distributions and used bar graph to plot the values. The mean rating was lower in 2016 with approximately 0.2. This means a drop of almost 5% relative to the mean rating in 2015.While the median is the same for both distributions, the mode is lower in 2016 by 0.5.</br>
+<h3>Conclusion</h3>
+<br>Analysis showed that there is indeed a slight difference between Fandango's ratings for popular movies in 2015 and Fandango's ratings for popular movies in 2016.</br>

@@ -5,7 +5,6 @@ after = pd.read_csv('movie_ratings_16_17.csv')
 print(previous.head(3))
 
 print(after.head(3))
-
 fandango_previous = previous[['FILM', 'Fandango_Stars', 'Fandango_Ratingvalue', 'Fandango_votes','Fandango_Difference']].copy()
 fandango_after = after[['movie', 'year', 'fandango']].copy()
 
